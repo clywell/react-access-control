@@ -1,6 +1,6 @@
 {
     "name": "@clywell/react-access-control",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A comprehensive React access control and permission management system with role-based access control, feature flags, and route protection",
     "type": "module",
     "main": "dist/index.js",
