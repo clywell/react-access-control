@@ -257,7 +257,7 @@ describe('MemoryCache', () => {
 
     describe('edge cases', () => {
         test('should handle various data types', () => {
-            const testCases: Array<[string, any]> = [
+            const testCases: Array<[string, unknown]> = [
                 ['string', 'test-string'],
                 ['number', 42],
                 ['boolean', true],

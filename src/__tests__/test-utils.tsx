@@ -34,8 +34,8 @@ export const mockFeatureFlags: FeatureFlag[] = [
 ];
 
 // Mock fetch functions
-export const mockFetchUserPermissions = jest.fn<Promise<UserPermissions>, []>();
-export const mockFetchFeatureFlags = jest.fn<Promise<FeatureFlag[]>, []>();
+export const mockFetchUserPermissions = jest.fn() as jest.MockedFunction<() => Promise<UserPermissions>>;
+export const mockFetchFeatureFlags = jest.fn() as jest.MockedFunction<() => Promise<FeatureFlag[]>>;
 
 // Default provider config for testing
 export const defaultTestConfig: AccessControlProviderProps['config'] = {
